@@ -5,6 +5,13 @@
 
     <StackLayout>
         <Label Text="Mountains" HorizontalOptions="Center" FontSize="20"/>
+
+        <Image/>
+
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Like"/>
+            <Button Text="Dislike"/>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
