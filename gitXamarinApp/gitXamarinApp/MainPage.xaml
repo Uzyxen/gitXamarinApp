@@ -12,6 +12,8 @@
             <ImageButton />
             <ImageButton />
         </StackLayout>
+
+        <Label Text="x Likes" HorizontalOptions="End"/>
     </StackLayout>
 
 </ContentPage>
