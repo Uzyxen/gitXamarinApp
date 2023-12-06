@@ -9,11 +9,11 @@
         <Image Source="mountains_embeddedImages.jpg" Margin="0, 0, 0, 50"/>
 
         <StackLayout Orientation="Horizontal" BackgroundColor="LightGray">
-            <ImageButton Source="like.jpg" HorizontalOptions="FillAndExpand" Clicked="LikeButtonClicked"/>
-            <ImageButton Source="dislike.jpg" HorizontalOptions="FillAndExpand" Clicked="DislikeButtonClicked"/>
+            <ImageButton Source="like.jpg" BackgroundColor="LightGray" HorizontalOptions="FillAndExpand" Clicked="LikeButtonClicked"/>
+            <ImageButton Source="dislike.jpg" BackgroundColor="LightGray" HorizontalOptions="FillAndExpand" Clicked="DislikeButtonClicked"/>
         </StackLayout>
 
-        <Label x:Name="LikeCounter" Text="" HorizontalOptions="End"/>
+        <Label x:Name="LikeCounter" FontSize="20" HorizontalOptions="End"/>
 
         <BoxView HeightRequest="2" BackgroundColor="Red"/>
 
