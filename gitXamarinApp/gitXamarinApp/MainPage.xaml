@@ -9,8 +9,8 @@
         <Image/>
 
         <StackLayout Orientation="Horizontal">
-            <Button Text="Like"/>
-            <Button Text="Dislike"/>
+            <ImageButton />
+            <ImageButton />
         </StackLayout>
     </StackLayout>
 
