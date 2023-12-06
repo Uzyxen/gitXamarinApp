@@ -4,9 +4,9 @@
              x:Class="gitXamarinApp.MainPage">
 
     <StackLayout>
-        <Label Text="Mountains" HorizontalOptions="Center" FontSize="20"/>
+        <Label Text="Mountains" HorizontalOptions="Center" FontSize="20" Margin="0, 0, 0, 50"/>
 
-        <Image Source="mountains_localImages.jpg"/>
+        <Image Source="mountains_localImages.jpg" Margin="0, 0, 0, 50"/>
 
         <StackLayout Orientation="Horizontal" BackgroundColor="LightGray">
             <ImageButton Source="like.jpg" HorizontalOptions="FillAndExpand"/>
@@ -14,6 +14,8 @@
         </StackLayout>
 
         <Label Text="x Likes" HorizontalOptions="End"/>
+
+        <BoxView HeightRequest="2" BackgroundColor="Red"/>
 
         <Label Text="Descrpition" FontAttributes="Bold"/>
         <Label Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."/>
