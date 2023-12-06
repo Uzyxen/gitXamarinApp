@@ -6,14 +6,14 @@
     <StackLayout>
         <Label Text="Mountains" HorizontalOptions="Center" FontSize="20" Margin="0, 0, 0, 50"/>
 
-        <Image Source="mountains_localImages.jpg" Margin="0, 0, 0, 50"/>
+        <Image Source="mountains_embeddedImages.jpg" Margin="0, 0, 0, 50"/>
 
         <StackLayout Orientation="Horizontal" BackgroundColor="LightGray">
             <ImageButton Source="like.jpg" HorizontalOptions="FillAndExpand"/>
             <ImageButton Source="dislike.jpg" HorizontalOptions="FillAndExpand"/>
         </StackLayout>
 
-        <Label Text="x Likes" HorizontalOptions="End"/>
+        <Label Text="x Likes" HorizontalOptions="End" Margin="0, 0, 10, 0"/>
 
         <BoxView HeightRequest="2" BackgroundColor="Red"/>
 
