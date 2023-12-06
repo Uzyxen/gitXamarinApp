@@ -13,7 +13,7 @@
             <ImageButton Source="dislike.jpg" BackgroundColor="LightGray" HorizontalOptions="FillAndExpand" Clicked="DislikeButtonClicked"/>
         </StackLayout>
 
-        <Label x:Name="LikeCounter" FontSize="20" HorizontalOptions="End" Margin="0, 0, 0, 10"/>
+        <Label x:Name="LikeCounter" FontSize="20" HorizontalOptions="End" Margin="0, 0, 10, 0"/>
 
         <BoxView HeightRequest="2" BackgroundColor="Red"/>
 
