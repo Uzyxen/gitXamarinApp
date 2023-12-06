@@ -9,8 +9,8 @@
         <Image Source="mountains_embeddedImages.jpg" Margin="0, 0, 0, 50"/>
 
         <StackLayout Orientation="Horizontal" BackgroundColor="LightGray">
-            <ImageButton Source="like.jpg" HorizontalOptions="FillAndExpand"/>
-            <ImageButton Source="dislike.jpg" HorizontalOptions="FillAndExpand"/>
+            <ImageButton Source="like.jpg" BackgroundColor="LightGray" HorizontalOptions="FillAndExpand"/>
+            <ImageButton Source="dislike.jpg" BackgroundColor="LightGray" HorizontalOptions="FillAndExpand"/>
         </StackLayout>
 
         <Label Text="x Likes" HorizontalOptions="End" Margin="0, 0, 10, 0"/>
