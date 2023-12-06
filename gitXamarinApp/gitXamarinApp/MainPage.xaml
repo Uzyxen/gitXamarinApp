@@ -9,11 +9,11 @@
         <Image Source="mountains_localImages.jpg" Margin="0, 0, 0, 50"/>
 
         <StackLayout Orientation="Horizontal" BackgroundColor="LightGray">
-            <ImageButton Source="like.jpg" HorizontalOptions="FillAndExpand"/>
-            <ImageButton Source="dislike.jpg" HorizontalOptions="FillAndExpand"/>
+            <ImageButton Source="like.jpg" HorizontalOptions="FillAndExpand" Clicked="LikeButtonClicked"/>
+            <ImageButton Source="dislike.jpg" HorizontalOptions="FillAndExpand" Clicked="DislikeButtonClicked"/>
         </StackLayout>
 
-        <Label Text="x Likes" HorizontalOptions="End"/>
+        <Label x:Name="LikeCounter" Text="" HorizontalOptions="End"/>
 
         <BoxView HeightRequest="2" BackgroundColor="Red"/>
 
