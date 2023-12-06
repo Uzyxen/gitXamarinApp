@@ -6,11 +6,11 @@
     <StackLayout>
         <Label Text="Mountains" HorizontalOptions="Center" FontSize="20"/>
 
-        <Image/>
+        <Image Source="mountains_localImages.jpg"/>
 
         <StackLayout Orientation="Horizontal">
-            <ImageButton />
-            <ImageButton />
+            <ImageButton Source="like.jpg"/>
+            <ImageButton Source="dislike.jpg"/>
         </StackLayout>
 
         <Label Text="x Likes" HorizontalOptions="End"/>
