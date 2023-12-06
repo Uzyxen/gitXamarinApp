@@ -8,9 +8,9 @@
 
         <Image Source="mountains_localImages.jpg"/>
 
-        <StackLayout Orientation="Horizontal">
-            <ImageButton Source="like.jpg"/>
-            <ImageButton Source="dislike.jpg"/>
+        <StackLayout Orientation="Horizontal" BackgroundColor="LightGray">
+            <ImageButton Source="like.jpg" HorizontalOptions="FillAndExpand"/>
+            <ImageButton Source="dislike.jpg" HorizontalOptions="FillAndExpand"/>
         </StackLayout>
 
         <Label Text="x Likes" HorizontalOptions="End"/>
