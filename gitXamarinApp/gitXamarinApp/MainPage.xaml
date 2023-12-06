@@ -5,6 +5,7 @@
 
     <StackLayout>
         <Label Text="Mountains" HorizontalOptions="Center" FontSize="20"/>
+        
     </StackLayout>
 
 </ContentPage>
